@@ -1,0 +1,15 @@
+# build output (the zip goes into a GitHub Release, not into git)
+target/
+build/
+dist/
+
+# never commit signing keys or certificates with private keys
+*.pfx
+*.p12
+*.key
+*.pem
+
+# IDE
+.idea/
+*.iml
+out/
